@@ -1,0 +1,46 @@
+{
+  "name": "nayan-vangala-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal portfolio for Nayan Vangala. Warm editorial AI-lab mood, all assets generated in code.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "tsc --noEmit",
+    "assets": "node scripts/generate-assets.mjs",
+    "fonts": "node scripts/copy-fonts.mjs",
+    "videos": "node scripts/render-videos.mjs",
+    "refresh:github": "node scripts/refresh-github.mjs",
+    "prebuild": "node scripts/copy-fonts.mjs",
+    "predev": "node scripts/copy-fonts.mjs"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.2",
+    "@react-three/postprocessing": "^3.2.2",
+    "framer-motion": "^14.9.0",
+    "gsap": "^3.15.0",
+    "lenis": "^1.3.27",
+    "next": "^16.4.4",
+    "postprocessing": "^6.39.6",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "server-only": "^0.0.1",
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "@fontsource-variable/fraunces": "^5.3.0",
+    "@fontsource-variable/inter-tight": "^5.3.0",
+    "@fontsource-variable/jetbrains-mono": "^5.3.0",
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/three": "^0.187.0",
+    "playwright": "^1.64.1",
+    "sharp": "^0.35.5",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.9.0"
+  }
+}

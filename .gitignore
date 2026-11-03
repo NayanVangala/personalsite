@@ -1,0 +1,21 @@
+node_modules
+.next
+out
+.env
+.env.local
+.env.*.local
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+.DS_Store
+# local tooling
+.claude-flow
+.swarm
+ruvector.db
+.claude/settings.local.json
+# scratch render output (final videos live in public/video)
+scripts/.tmp
+agentdb.rvf
+agentdb.rvf.lock
+.impeccable
+.claude/
